@@ -1,0 +1,200 @@
+/*
+==========================
+    Fonts  
+==========================
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+/*
+==========================
+    Utility  
+==========================
+*/
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: inline;
+}
+
+.party-over-button {
+    margin-top: 20px;
+    font-weight: bolder;
+    background-color: #f0f0f0;
+    color: black;
+    transition: background-color 1s ease;
+}
+
+/*
+===========================
+    HTML Elements
+===========================
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    background-color: #364f6b;
+}
+
+/*
+===========================
+    Logo
+===========================
+*/
+
+.logo-container {
+    font-family: 'Carter One', cursive;
+    /*color: #facf5a;*/
+    color: white;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 0 auto;
+    /*text-shadow: 0 0 10px rgba(0, 0, 0, 1);*/
+    margin-top: 20px;
+}
+
+.logo {
+    font-size: 2.3rem;
+}
+
+/*
+===========================
+   Time Section
+===========================
+*/
+
+.time-display-section {
+    margin: 20px auto 0 auto;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    /*color: #ff5959;*/
+    color: white;
+    /*text-shadow: 0 0 10px rgba(0, 0, 0, 1);*/
+}
+
+.time-display-heading {
+    font-size: 1.9rem;
+}
+
+.time-display *{
+    font-size: 2.3rem;
+}
+
+.digits {
+    display: inline-block;
+}
+
+.colon-symbol {
+    font-size: 4rem;
+    display: inline-block;
+}
+
+.am-pm {
+    text-transform: uppercase;
+    font-size: 2.1rem;
+    display: inline-block;
+}
+
+/*
+===========================
+   Image Display Section
+===========================
+*/
+
+.image-display-section {
+    width: 420px;
+    margin: 20px auto 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.image-display {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.day-parts-container {
+    width: 420px;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    text-align: center;
+}
+
+.party-time-text-container {
+    width: 420px;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    text-align: center;
+}
+
+.day-parts {
+    font-family: 'Yellowtail', cursive;
+    color: #fc5185;
+    font-size: 2.7rem;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 1), 2px 2px 5px rgba(0, 0, 0, 1);
+    text-transform: capitalize;
+    font-weight: lighter;
+    display: inline-block;
+}
+
+.party-time-text {
+    font-family: 'Yellowtail', cursive;
+    color: #fc5185;
+    font-size: 2.7rem;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 1), 2px 2px 5px rgba(0, 0, 0, 1);
+    text-transform: capitalize;
+    font-weight: lighter;
+    display: inline-block;
+}
+
+/*
+===========================
+   Time Alert Section
+===========================
+*/
+
+.time-alert-section {
+    margin: 20px auto 0 auto;
+    text-align: center;
+}
+
+.time-alert-row {
+    margin-top: 5px;
+}
+
+.alert-label {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold; 
+}
+
+.select-label {
+    padding: 5px;
+}
+
+.button {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.6rem;
+    padding: 20px 100px;
+    border: none;
+    border-radius: 8px;
+}
+
+.party-time-button {
+    margin-top: 20px;
+    font-weight: bolder;
+    background-color: #43dde6;
+    color: black;
+    transition: background-color 1s ease;
+}
